@@ -19,10 +19,10 @@ Empty tetris board.
 ## Goal state
 The maximum scoring board.
 
-##Successor state
+## Successor state
 The next board with the best block move.
 
-##Utility/Evaluation function
+## Utility/Evaluation function
 (w1 * aggregate_height) + (w2 * bumpiness) + (w3 * number_of_holes) + (w4 * deepest_well) + (w5 * score).
 
 ## Approach and design decisions:
